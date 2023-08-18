@@ -26,8 +26,8 @@ jobs:
           distribution: 'temurin'
           java-version: 11
 
-      - name: Build With Gradle
-        run: ./gradlew build
+      - name: Build Jar
+        run: ./gradlew jar
 
   security:
     runs-on: ubuntu-latest
